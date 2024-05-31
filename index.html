@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +15,7 @@
 <body>
     <div class="head">
         <img src="icon2.png" alt="" id="icon">
-
         <h2 id="tagline">"Capture Every Thought, Never Miss a Moment."</h2>
-
-
     </div>
 
     <div class="outer">
@@ -34,18 +30,16 @@
             </div>
         </div>
 
-
         <dialog>
             <input type="text" class="pageTitle" placeholder="Title">
             <textarea class="pagetext" rows="18" cols="45"></textarea>
-
             <button id="save" class="btn">Save</button>
-
         </dialog>
-
-
     </div>
-</body>
-<script src="script.js"></script>
 
+    <!-- Load Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
